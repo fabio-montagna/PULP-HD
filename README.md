@@ -10,11 +10,11 @@ PULPv3 single core results slightly more complex than ARM Cortex M4 (1.2x), but,
 ## Structure
 All the functions that compose the application are commented with a brief descriptions and input/output arguments. 
 ### MATLAB
--**`MATLAB/data`**: contains the envelope derived from EMG signals acquired through 4 acquisition channels <br />
--**`MATLAB/binary_functions.m`**: contains all the functions needed to perform HD Computing. <br />
--**`MATLAB/HDC_binary.m`**: main script, which executes the processing starting from data acquired from 5 different subjects. <br />
--**`MATLAB/compress_hypervectors.m`**: this function compress a matrix or an array in 32-bit unsigned integer variables. <br />
--**`MATLAB/data_file_creator.m`**: with this script is possible to create the data.h file for the C implementation.   <br />
+-**`MATLAB_HDC/data`**: contains the envelope derived from EMG signals acquired through 4 acquisition channels <br />
+-**`MATLAB_HDC/binary_functions.m`**: contains all the functions needed to perform HD Computing. <br />
+-**`MATLAB_HDC/HDC_binary.m`**: main script, which executes the processing starting from data acquired from 5 different subjects. <br />
+-**`MATLAB_HDC/compress_hypervectors.m`**: this function compress a matrix or an array in 32-bit unsigned integer variables. <br />
+-**`MATLAB_HDC/data_file_creator.m`**: with this script is possible to create the data.h file for the C implementation.   <br />
 ### STM32F4
 -**`STM/inc/data.h`**: contains the IM and CIM matrices and a testing matrix.   <br />
 -**`STM/inc/init.h`**: contains all the parameters. <br />
