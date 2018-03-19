@@ -16,21 +16,21 @@ All the functions that compose the application are commented with a brief descri
 -**`MATLAB/compress_hypervectors.m`**: this function compress a matrix or an array in 32-bit unsigned integer variables. <br />
 -**`MATLAB/data_file_creator.m`**: with this script is possible to create the data.h file for the C implementation.   <br />
 ### STM32F4
--**`STM/data.h`**: contains the IM and CIM matrices and a testing matrix.   <br />
--**`STM/init.h`**: contains all the parameters. <br />
--**`STM/main.c`**: main function. <br />
--**`STM/aux_functions.c`**: here you can find all the function related to the HD computing algorithm.<br />
--**`STM/aux_functions.h`**: definitions of the functions in “aux_functions.c”.<br />
--**`STM/associative_memory.c`**: function used to classify new samples.<br />
--**`STM/associative_memory.h`**: definition of the function in “associative_memory.c”. <br />
+-**`STM/inc/data.h`**: contains the IM and CIM matrices and a testing matrix.   <br />
+-**`STM/inc/init.h`**: contains all the parameters. <br />
+-**`STM/src/main.c`**: main function. <br />
+-**`STM/src/aux_functions.c`**: here you can find all the function related to the HD computing algorithm.<br />
+-**`STM/inc/aux_functions.h`**: definitions of the functions in “aux_functions.c”.<br />
+-**`STM/src/associative_memory.c`**: function used to classify new samples.<br />
+-**`STM/inc/associative_memory.h`**: definition of the function in “associative_memory.c”. <br />
 ### PULP
--**` PULP/data.h`**: contains the IM and CIM matrices and a testing matrix.<br />
--**` PULP/init.h`**: contains all the parameters.<br />
--**` PULP/main.c`**: main function.<br />
--**` PULP/aux_functions.c`**: here you can find all the function related to the HD computing algorithm.<br />
--**` PULP/aux_functions.h`**: definitions of the functions in “aux_functions.c”.<br />
--**` PULP/associative_memory.c`**: function used to classify new samples.<br />
--**` PULP/associative_memory.h`**: definition of the function in “associative_memory.c”.<br />
+-**` PULP/inc/data.h`**: contains the IM and CIM matrices and a testing matrix.<br />
+-**` PULP/inc/init.h`**: contains all the parameters.<br />
+-**` PULP/src/main.c`**: main function.<br />
+-**` PULP/src/aux_functions.c`**: here you can find all the function related to the HD computing algorithm.<br />
+-**` PULP/inc/aux_functions.h`**: definitions of the functions in “aux_functions.c”.<br />
+-**` PULP/src/associative_memory.c`**: function used to classify new samples.<br />
+-**` PULP/inc/associative_memory.h`**: definition of the function in “associative_memory.c”.<br />
 
 ## Future Works
 The next release will include an on-chip implementation of the training function and the pre-processing functions. In this way, it will be possible to train the algorithm and to classify new raw samples in real-time.   
