@@ -16,13 +16,13 @@ All the functions that compose the application are commented with a brief descri
 -**`MATLAB_HDC/compress_hypervectors.m`**: this function compress a matrix or an array in 32-bit unsigned integer variables. <br />
 -**`MATLAB_HDC/data_file_creator.m`**: with this script is possible to create the data.h file for the C implementation.   <br />
 ### STM32F4
--**`STM/inc/data.h`**: contains the IM and CIM matrices and a testing matrix.   <br />
--**`STM/inc/init.h`**: contains all the parameters. <br />
--**`STM/src/main.c`**: main function. <br />
--**`STM/src/aux_functions.c`**: here you can find all the function related to the HD computing algorithm.<br />
--**`STM/inc/aux_functions.h`**: definitions of the functions in “aux_functions.c”.<br />
--**`STM/src/associative_memory.c`**: function used to classify new samples.<br />
--**`STM/inc/associative_memory.h`**: definition of the function in “associative_memory.c”. <br />
+-**`STM_HDC/inc/data.h`**: contains the IM and CIM matrices and a testing matrix.   <br />
+-**`STM_HDC/inc/init.h`**: contains all the parameters. <br />
+-**`STM_HDC/src/main.c`**: main function. <br />
+-**`STM_HDC/src/aux_functions.c`**: here you can find all the function related to the HD computing algorithm.<br />
+-**`STM_HDC/inc/aux_functions.h`**: definitions of the functions in “aux_functions.c”.<br />
+-**`STM_HDC/src/associative_memory.c`**: function used to classify new samples.<br />
+-**`STM_HDC/inc/associative_memory.h`**: definition of the function in “associative_memory.c”. <br />
 ### PULP
 -**` PULP/inc/data.h`**: contains the IM and CIM matrices and a testing matrix.<br />
 -**` PULP/inc/init.h`**: contains all the parameters.<br />
