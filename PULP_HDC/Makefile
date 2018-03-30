@@ -6,7 +6,7 @@ CORE ?= 8
 PULP_CFLAGS += -DCORE=$(CORE) -O3 -g3 -Iinc
 PULP_LDFLAGS = -lm
  
-stackSize ?= 5120 #2kB
+stackSize ?= 5120  
 
 
 include $(PULP_SDK_HOME)/install/rules/pulp.mk
