@@ -24,14 +24,14 @@ All the functions that compose the application are commented with a brief descri
 -**`STM_HDC/src/associative_memory.c`**: function used to classify new samples.<br />
 -**`STM_HDC/inc/associative_memory.h`**: definition of the function in “associative_memory.c”. <br />
 ### PULP
--**` PULP/inc/data.h`**: contains the IM and CIM matrices and a testing matrix.<br />
--**` PULP/inc/init.h`**: contains all the parameters.<br />
--**` PULP/src/main.c`**: main function.<br />
--**` PULP/src/aux_functions.c`**: here you can find all the function related to the HD computing algorithm.<br />
--**` PULP/inc/aux_functions.h`**: definitions of the functions in “aux_functions.c”.<br />
--**` PULP/src/associative_memory.c`**: function used to classify new samples.<br />
--**` PULP/inc/associative_memory.h`**: definition of the function in “associative_memory.c”.<br />
--**` PULP/Makefile`**: you can compile and run the application with "make clean all run" command. <br />
+-**` PULP_HDC/inc/data.h`**: contains the IM and CIM matrices and a testing matrix.<br />
+-**` PULP_HDC/inc/init.h`**: contains all the parameters.<br />
+-**` PULP_HDC/src/main.c`**: main function.<br />
+-**` PULP_HDC/src/aux_functions.c`**: here you can find all the function related to the HD computing algorithm.<br />
+-**` PULP_HDC/inc/aux_functions.h`**: definitions of the functions in “aux_functions.c”.<br />
+-**` PULP_HDC/src/associative_memory.c`**: function used to classify new samples.<br />
+-**` PULP_HDC/inc/associative_memory.h`**: definition of the function in “associative_memory.c”.<br />
+-**` PULP_HDC/Makefile`**: you can compile and run the application with "make clean all run" command. <br />
 
 ## Future Works
 The next release will include an on-chip implementation of the training function and the pre-processing functions. In this way, it will be possible to train the algorithm and to classify new raw samples in real-time.   
