@@ -7,7 +7,7 @@
 
  
 
-#define PULP_L1_DATA RT_L2_DATA
+#define PULP_L1_DATA RT_L1_DATA
 #define PULP_L2_DATA RT_L2_DATA
  
 
