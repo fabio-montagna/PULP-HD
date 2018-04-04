@@ -1,11 +1,11 @@
 # PULP-HD: Accelerating Brain-Inspired High-Dimensional Computing on a Parallel Ultra-Low Power Platform
 
-This project provides an accelerator for HD Computing. The code is available for the execution on different architectures. High-level MATLAB code is used to validate the processing chain. The pre-processing functions are not provided and the input dataset is composed by the envelope extracted from the raw EMG data. Moreover, the C code is available for the execution on an ARM Cortex M4 (we tested the algorithm on an STM32F4-DISCOVERY). Another version of the application can be executed on the ultra-low power multi-core PULPv3 in sequential (using 1 core) and in multi-core (up to 4 cores). The parallelization for the multi-core execution is done through OpenMP directives. 
+This project provides an accelerator for HD Computing. The code is available for the execution on different architectures. High-level MATLAB code is used to validate the processing chain. The pre-processing functions are not provided and the input dataset is composed by the envelope extracted from the raw EMG data. Moreover, the C code is available for the execution on an ARM Cortex M4 (we tested the algorithm on an STM32F4-DISCOVERY). Another version of the application can be executed on the ultra-low power multi-core Wolf in sequential (using 1 core) and in multi-core (up to 8 cores), with and wothout built-ins to optimize the execution. The parallelization for the multi-core execution is done through OpenMP directives. 
 
 ## Results 
 Some meaningful results are provided to show the capabilities of our implementation. 
 PULPv3 with 4 cores achieves a 3.7x end-to-end speed-up and 2x energy saving compared to its single core execution. 
-PULPv3 single core results slightly more complex than ARM Cortex M4 (1.2x), but, imposing a detection latency equal to 10ms, performance shows a power boost of 4.9x. This energy saving can be improved up to 9.9x using 4 cores, lowering the operational frequency and working at a voltage equal to 0.5V. 
+PULPv3 single core results slightly more complex than ARM Cortex M4 (1.2x), but, imposing a detection latency equal to 10ms, performance shows a power boost of 4.9x. This energy saving can be improved up to 9.9x using 4 cores, lowering the operational frequency and working at a voltage equal to 0.5V. Furthermore, the application was evaluated on Wolf obtaining a speed-up equal to 2.8x with 1 core and up to 18.4x using 8 cores. 
 
 ## Structure
 All the functions that compose the application are commented with a brief descriptions and input/output arguments. 
