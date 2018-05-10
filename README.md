@@ -38,8 +38,10 @@ The next release will include an on-chip implementation of the training function
 STAY TUNED!
 
 ## Bugs Report and Clarifications. 
- If you found some bugs or for any problems or questions, please contact us! 
+If you found some bugs or for any problems or questions, please contact us! 
 For more information, you can read and (eventually) cite our paper: 
+
+F. Montagna, A. Rahimi, S. Benatti, D. Rossi, L. Benini, “PULP-HD: Accelerating Brain-Inspired High-Dimensional Computing on a Parallel Ultra-Low Power Platform,” In IEEE/ACM Design Automation Conference (DAC), 2018. arXive preprint arXive: 1804.09123
 
 
 
